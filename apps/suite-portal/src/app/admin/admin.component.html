@@ -1,0 +1,19 @@
+<form [formGroup]="loginFormGroup" (ngSubmit)="login()" autocomplete="off">
+
+  <div class="container w-25 mt-5">
+    <div class="topnav">
+      <h1>Please Login</h1>
+    </div>
+    <div class="form-floating">
+      <input type="text" class="form-control" formControlName="username" id="username">
+      <label class="ph-title" for="username">User Name</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" formControlName="password" id="password" placeholder="Password">
+      <label class="ph-title" for="password">Password</label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary get-started mt-3"  type="submit">
+      Login
+    </button>
+  </div>
+</form>

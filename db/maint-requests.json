@@ -1,0 +1,20 @@
+{
+  "credentials": [
+    {
+      "username": "admin",
+      "password": "admin123"
+    }
+  ],
+  "requests": [
+    {
+      "id": "icpJTmIRnM",
+      "name": "Russel",
+      "email": "russel@yahoo.com",
+      "unitNumber": "Block12",
+      "serviceType": "electrical",
+      "summary": "No power",
+      "details": "No electrical power",
+      "submittedAt": "2022-02-24T12:55:27.972Z"
+    }
+  ]
+}
